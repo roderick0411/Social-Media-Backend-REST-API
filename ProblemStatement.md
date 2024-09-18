@@ -58,14 +58,3 @@ Route: POST /codingninjas/api/likes/like
 Query Parameters:
 model: Accepts only 'User'.
 id: Should contain the ObjectID of the user profile to be liked.
-
-# Resources:
-
-Consult the Mongoose documentation for schema creation.
-
-# Notes/Hints:
-
-1. Explore the implemented JWT authentication middleware for user identification and authentication.
-2. Access the logged-in user's ObjectID from the req object for user identification.
-3. Implement robust error handling mechanisms to prevent duplicate job applications.
-4. Ensure that user data is populated correctly when fetching likes for jobs and user profiles.
