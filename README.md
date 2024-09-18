@@ -49,4 +49,8 @@
   - **/api/friends/toggle-friendship/:friendId**: Toggle friendship with another user.
   - **/api/friends/response-to-request/:friendId**: Accept or reject a friend request.
 
+- OTP Routes
+  - /api/otp/send: Send an OTP for password reset.
+  - /api/otp/verify: Verify an OTP.
+  - /api/otp/reset-password: Reset the user's password.
 
